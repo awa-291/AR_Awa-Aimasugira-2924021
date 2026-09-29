@@ -227,3 +227,158 @@ Application.AssetDatabase Initial Refresh Start
     com.unity.mathematics@1.4.0 (location: D:\3E\AR\AR_AWA AIMASUGIRA_2924021\AR_AWA AIMASUGIRA_2924021\Library\PackageCache\com.unity.mathematics@981956d94fb6)
 [Subsystems] No new subsystems found in resolved package list.
 [Package Manager] Done registering packages in 0.01 seconds
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.10f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/3E/AR/AR_AWA AIMASUGIRA_2924021/AR_AWA AIMASUGIRA_2924021
+ExitCode: 0 Duration: 0s778ms
+[740/939    0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+*** Tundra build success (0.75 seconds), 1 items updated, 939 evaluated
+AssetDatabase: script compilation time: 1.633474s
+Begin MonoManager ReloadAssembly
+Total cache size 133238144
+Total cache size after purge 133238144, took 00:00:00.1092668
+Refreshing native plugins compatible for Editor in 96.55 ms, found 4 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.905 seconds
+Domain Reload Profiling: 7007ms
+	BeginReloadAssembly (191ms)
+		DisableScriptedObjects (21ms)
+		CreateAndSetChildDomain (39ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (2849ms)
+		LoadAssemblies (2487ms)
+		AnalyzeDomain (355ms)
+			TypeCache.Refresh (290ms)
+				TypeCache.ScanAssembly (279ms)
+			BuildScriptInfoCaches (57ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (3906ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			BeforeProcessingInitializeOnLoad (75ms)
+			ProcessInitializeOnLoadAttributes (2595ms)
+			ProcessInitializeOnLoadMethodAttributes (238ms)
+			AfterProcessingInitializeOnLoad (4ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Starting new worker id: 0 with log in D:/3E/AR/AR_AWA AIMASUGIRA_2924021/AR_AWA AIMASUGIRA_2924021/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=6ab1903581b6eee43ae39db7eeaf5d43): Total: 19.441 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=14539 ms
+		Asset DB Callback time: managed=50 ms, native=30 ms
+		Scripting: domain reloads=1, domain reload time=3140 ms, compile time=1635 ms, other=45 ms
+		Project Asset Count: scripts=1361, non-scripts=2323
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 31.890ms
+	ApplyChangesToAssetFolders: 0.476ms
+	Scan: 96.091ms
+	Collect global state as custom dependencies: 32.441ms
+	CategorizeScriptCompilationAssets: 2028.147ms
+	ProcessAssetsWithTransientArtifactChanges: 50.708ms
+	CategorizeAssets: 37.997ms
+	CompileScripts: 1635.258ms
+	ImportOutOfDateAssets: 4072.383ms (4014.725ms without children)
+		UnloadImportedAssets: 0.669ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.439ms
+		ImportSchedulerStart: 56.521ms
+	PostProcessAllAssets: 50.598ms
+		MonoPostProcessAllAssets: 50.498ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 25.613ms
+			SyncVS.PostprocessSyncProject 2.988ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 2.332ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.742ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.968ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.629ms
+			ShaderReflectionAssetPostProcessor.OnPostprocessAllAssets 0.315ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.267ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.246ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.203ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.166ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.136ms
+	UnloadStreamsBegin: 2.193ms
+	PersistCurrentRevisions: 0.236ms
+	GenerateScriptTypeHashes: 1.162ms
+	GenerateScriptTypeSerializationHashes: 2.104ms
+	Untracked: 11399.779ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 2.262ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Pertemuan03_CameraAudio
+Worker ready: AssetImportWorkerHW0 0
+Opening scene 'Assets/Scenes/Pertemuan02_Diorama.unity'
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/Pertemuan02_Diorama.unity'
+	Deserialize:            11.207 ms
+	Integration:            170.470 ms
+	Integration of assets:  0.004 ms
+	Thread Wait Time:       0.057 ms
+	Total Operation Time:   181.739 ms
+Unloading 6644 unused Assets / (6.9 MB). Loaded Objects now: 7767.
+Memory consumption went from 429.8 MB to 422.9 MB.
+Total: 9.940000 ms (FindLiveObjects: 0.529700 ms CreateObjectMapping: 0.519900 ms MarkObjects: 5.156900 ms  DeleteObjects: 3.731400 ms)
+
+[LAYOUT] About to load UserSettings\Layouts\default-6000.dwlt, keepMainWindow=False
+[LAYOUT] About to save layout D:\3E\AR\AR_AWA AIMASUGIRA_2924021\AR_AWA AIMASUGIRA_2924021\UserSettings\Layouts\default-6000.dwlt
+[LAYOUT] About to save layout C:/Users/USER/AppData/Roaming/Unity/Editor-5.x/Preferences\Layouts\current\default-6000.dwlt
+[MODES] ModeService[default].InitializeCurrentMode
+[MODES] ModeService[default].RaiseModeChanged(default, default)
+<RI> Initializing input.
+Using Windows.Gaming.Input
+[Project] Loading completed in 46.168 seconds
+	Project init time: 				43.802 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		5.541 seconds
+		Asset Database init time: 		0.381 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			14.638 seconds
+		Unity extensions init time: 	0.029 seconds
+		Asset Database refresh time: 	19.441 seconds
+	Scene opening time: 			2.228 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1790659895718,"processId":24548,"projectLoad":46.167918099999997,"projectInit":43.801516,"templateInit":0.0,"packageManagerInit":5.5409329,"assetDatabaseInit":0.3806156,"globalIlluminationInit":0.0053897,"assembliesLoad":14.6376428,"unityExtensionsInit":0.0288995,"assetDatabaseRefresh":19.4413071,"sceneOpening":2.2275341}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1790659895718,"processId":24548,"editorVersion":"6000.5.10f1 (3bd4f66ad299)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Asset Pipeline Refresh (id=b2f0d3813c8e08543982fe79bff3ebb8): Total: 0.065 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Asset Pipeline Refresh (id=5ee614ce4d1d4714d89c5707c2aff22f): Total: 0.002 seconds - Initiated by RefreshV2(AllowForceSynchronousImport)
+Created GICache directory at C:/Users/USER/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.009s, timestamps: [47.557 - 47.566]
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully updated the access token
+[Licensing::Module] Successfully updated access token: "5yRaE9-O"... (expires: 2026-09-29T06:41:00Z)
+Android Extension - Scanning For ADB Devices 2228 ms
+Android Extension - Scanning For ADB Devices 162 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+UPID Received '80c92f87-1cc9-4810-9e6c-e75470b8c7be'.
+Android Extension - Scanning For ADB Devices 177 ms
+AcceleratorClientConnectionCallback - disconnected - :0
+Importing 'GUID: 00000000000000004000000000000000 - Path: ProjectSettings/ProjectSettings.asset' with importer (LibraryAssetImporter)
+Imported 'GUID: 00000000000000004000000000000000' -> (Import Result ID: '383912192223193970e62370abc7f08f') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=276a810dac73e1f29404d5e5f692e214 DependenciesID=9ee65ada41740af07cda92f1153c070c StaticDependenciesID=afc2b025731b66dbab82237c810a5767 
+Asset Pipeline Refresh (id=f69a3d351dcd80e458bb5ad7538d7eee): Total: 0.097 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Request Asset Garbage Collect because used heap size increased from 423.3 MB to 0.67 GB, exceeding the threshold of 256.0 MB.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 104 unused Assets / (17.1 MB). Loaded Objects now: 8760.
+Memory consumption went from 0.67 GB to 0.65 GB.
+Total: 14.641400 ms (FindLiveObjects: 0.396200 ms CreateObjectMapping: 0.238500 ms MarkObjects: 9.940900 ms  DeleteObjects: 4.064500 ms)
+
+Android Extension - Scanning For ADB Devices 146 ms
+[Licensing::Client] Successfully resolved entitlement details
+Scanning for USB devices : 1.996ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 138 ms
+Android Extension - Scanning For ADB Devices 140 ms
+Attempted to call .Dispose on an already disposed CancellationTokenSource
+Android Extension - Scanning For ADB Devices 140 ms
+Android Extension - Scanning For ADB Devices 145 ms
+TrimDiskCacheJob: Current cache size 0mb
