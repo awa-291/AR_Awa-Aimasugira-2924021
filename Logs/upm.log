@@ -1,0 +1,31 @@
+[2026-09-29T04:01:18.508Z][INFO] Command-line: 'C:\\Program Files\\Unity\\Hub\\Editor\\6000.5.10f1\\Editor\\Data\\Resources\\PackageManager\\Server\\UnityPackageManager.exe' server -s 9508 --ipc-path Unity-Upm-9508 -l 2 --log-file 'D:\\3E\\AR\\AR_AWA AIMASUGIRA_2924021\\AR_AWA AIMASUGIRA_2924021/Logs/upm.log'
+[2026-09-29T04:01:18.539Z][INFO] IPC server started (IPC path=Unity-Upm-9508).
+[2026-09-29T04:01:18.539Z][INFO] Hint: To connect to this UPM instance, launch Unity with the command-line parameter -upmIpcPath Upm-9508.
+[2026-09-29T04:01:21.532Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:21.609Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:21.642Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-29T04:01:21.700Z][INFO] config:project:get-registries --> 200 (58 ms)
+[2026-09-29T04:01:22.034Z][INFO] project:list-packages --> 200 (502 ms)
+[2026-09-29T04:01:22.079Z][INFO] project:list-packages --> 200 (470 ms)
+[2026-09-29T04:01:23.710Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:23.729Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:24.098Z][INFO] project:list-packages --> 200 (388 ms)
+[2026-09-29T04:01:24.099Z][INFO] project:list-packages --> 200 (370 ms)
+[2026-09-29T04:01:25.553Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:25.651Z][INFO] project:list-packages --> 200 (98 ms)
+[2026-09-29T04:01:25.719Z][INFO] config:project:get-registries <-- Request received
+params: {}
+[2026-09-29T04:01:25.722Z][INFO] config:project:get-registries --> 200 (3 ms)
+[2026-09-29T04:01:27.868Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:27.956Z][INFO] project:list-packages --> 200 (88 ms)
+[2026-09-29T04:01:29.806Z][INFO] project:list-packages <-- Request received
+params: {}
+[2026-09-29T04:01:51.261Z][ERROR] Error: Cannot connect to 'packages.unity.com' (error code: ETIMEDOUT). Check your internet connection and verify that your environment firewall policies allow connection to this host name. If your system is behind a proxy, verify your proxy environment variables (HTTP_PROXY and HTTPS_PROXY) are properly set.
+[2026-09-29T04:02:08.823Z][INFO] project:list-packages --> 200 (39017 ms)
